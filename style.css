@@ -1626,7 +1626,7 @@ display: flex;
 
 }.collBakground {
     width: 100%;
-    min-height: 60vh;
+    min-height: 40vh;
     background-image: url('images/collBack3.png');
     background-size: cover;  /* ensures image fills space proportionally */
     background-position: center;
@@ -1644,6 +1644,7 @@ display: flex;
     font-size: clamp(24px, 5vw, 50px); /* scales between 24px and 50px */
     margin: 0 0 10px 0;
     font-weight: bold;
+    margin-top:-150px;
 }
 
 .collBakground p {
@@ -3566,6 +3567,7 @@ font-size: 16px;
       margin-left:-20px;
     }
 }
+
 
 
 
