@@ -1623,10 +1623,10 @@ display: flex;
   flex-wrap: wrap;
   margin-top: 40px;
   padding: 20px;
-}.collBakground {
+}  .collBakground {
     width: 100%;
-    min-height: 30vh;
-    background-image: url('images/collBack3.png');
+    min-height: 40vh;
+    background-image: url('images/collegeBSISA.jpg');
     background-size: cover;  /* ensures image fills space proportionally */
     background-position: center;
     background-repeat: no-repeat;
@@ -1636,9 +1636,10 @@ display: flex;
     align-items: flex-start; /* left align text & button */
     padding: 5vw; /* spacing scales with screen size */
     text-align: left;
-    margin-top:-100px;
+    margin-top:-180px;
     background-size:100% auto; 
 
+}
 
 .collBakground h2 {
     color: white;
@@ -1667,6 +1668,7 @@ display: flex;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin-top:430px;
 }
 
 .dropdown-content {
@@ -1697,8 +1699,6 @@ display: flex;
 .dropdown:hover .dropbtn {
     background-color: #0056b3;
 }
-
-
 
 
 
@@ -3604,5 +3604,6 @@ font-size: 16px;
 
 
    
+
 
 
