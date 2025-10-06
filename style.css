@@ -1624,10 +1624,10 @@ display: flex;
   margin-top: 40px;
   padding: 20px;
 }
- .collBakground {
+  .collBakground {
   position: relative;
   width: 100%;
-  height: 60vh; /* default height for desktop */
+  height: 100vh; /* full viewport height */
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -1637,15 +1637,40 @@ display: flex;
   text-align: left;
 }
 
-.background-video {
-  position: absolute;
+/* style the video inside .collBakground directly */
+.collBakground video {
+  position: absolute; /* behind content */
   top: 0;
   left: 0;
   width: 100%;
-  height: 10%;
-  object-fit: cover;
-  z-index: -1;
+  height: 70%;
+  object-fit: cover; /* fills container proportionally */
+  z-index: -1; /* stays behind buttons/text */
 }
+
+/* dropdown button styling */
+.dropbtn {
+  background-color: #007bff;
+  color: white;
+  font-size: 1.1em;
+  padding: 12px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+
+/* Responsive adjustments for smaller screens */
+@media only screen and (max-width: 768px) {
+  .collBakground {
+    height: 40vh; /* reduce height on mobile */
+    padding: 3vw;
+  }
+}
+
 
 .collBakground h2 {
     color: white;
@@ -3612,5 +3637,3 @@ font-size: 16px;
 
 
    
-
-
