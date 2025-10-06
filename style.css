@@ -1272,6 +1272,7 @@ button:hover {
   margin-left:80px; 
   margin-top:-60px;      
 }
+
 .programC {
   flex: 0 0 300px;           
   text-align: center;
@@ -1622,7 +1623,8 @@ display: flex;
   flex-wrap: wrap;
   margin-top: 40px;
   padding: 20px;
-}  .collBakground {
+}
+  .collBakground {
     width: 100%;
     min-height: 10vh;
     background-image: url('images/collegeBSISA9.jpg');
@@ -1698,6 +1700,8 @@ display: flex;
 .dropdown:hover .dropbtn {
     background-color: #0056b3;
 }
+
+
 
 
 
@@ -3603,8 +3607,3 @@ font-size: 16px;
 
 
    
-
-
-
-
-
