@@ -1623,7 +1623,6 @@ display: flex;
   flex-wrap: wrap;
   margin-top: 40px;
   padding: 20px;
-
 }.collBakground {
     width: 100%;
     min-height: 40vh;
@@ -1696,6 +1695,9 @@ display: flex;
 .dropdown:hover .dropbtn {
     background-color: #0056b3;
 }
+
+
+
 
 
 .consider {
@@ -3572,3 +3574,31 @@ font-size: 16px;
 
 
 
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
