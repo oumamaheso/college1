@@ -1269,10 +1269,9 @@ button:hover {
   align-items: flex-start;    
   gap: 10px;                 
   flex-wrap: nowrap;   
-  margin-left:-20px; 
-  margin-top:20px;      
+  margin-left:80px; 
+  margin-top:-60px;      
 }
-
 .programC {
   flex: 0 0 300px;           
   text-align: center;
@@ -1626,7 +1625,7 @@ display: flex;
 }  .collBakground {
     width: 100%;
     min-height: 10vh;
-    background-image: url('images/collegeBSISA.jpg');
+    background-image: url('images/collegeBSISA9.jpg');
     background-size: cover;  /* ensures image fills space proportionally */
     background-position: center;
     background-repeat: no-repeat;
@@ -3604,6 +3603,7 @@ font-size: 16px;
 
 
    
+
 
 
 
