@@ -1624,32 +1624,27 @@ display: flex;
   margin-top: 40px;
   padding: 20px;
 }
-  .collBakground {
-    width: 100%;
-    min-height: 10vh;
-    background-image: url('videos/collBackVid.mp4');
-    background-size: cover;  /* ensures image fills space proportionally */
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start; /* left align text & button */
-    padding: 5vw; /* spacing scales with screen size */
-    text-align: left;
-    margin-top:-180px;
-    background-size:100% auto; 
-    
+ .collBakground {
+  position: relative;
+  width: 100%;
+  height: 60vh; /* default height for desktop */
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 5vw;
+  text-align: left;
+}
 
-}.background-video {
+.background-video {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height:80vh;
-  object-fit: cover; /* makes sure video fills container */
-  z-index: -1; /* ensures video stays behind text/buttons */
-  margin-top:200px;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
 }
 
 .collBakground h2 {
@@ -3617,3 +3612,4 @@ font-size: 16px;
 
 
    
+
