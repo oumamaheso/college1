@@ -1625,7 +1625,7 @@ display: flex;
   padding: 20px;
 }.collBakground {
     width: 100%;
-    min-height: 40vh;
+    min-height: 30vh;
     background-image: url('images/collBack3.png');
     background-size: cover;  /* ensures image fills space proportionally */
     background-position: center;
@@ -1636,7 +1636,8 @@ display: flex;
     align-items: flex-start; /* left align text & button */
     padding: 5vw; /* spacing scales with screen size */
     text-align: left;
-}
+    margin-top:-100px;
+
 
 .collBakground h2 {
     color: white;
@@ -3602,3 +3603,4 @@ font-size: 16px;
 
 
    
+
