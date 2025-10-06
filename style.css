@@ -1637,6 +1637,7 @@ display: flex;
     padding: 5vw; /* spacing scales with screen size */
     text-align: left;
     margin-top:-100px;
+    background-size:100% auto; 
 
 
 .collBakground h2 {
@@ -3603,4 +3604,5 @@ font-size: 16px;
 
 
    
+
 
