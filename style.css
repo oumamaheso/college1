@@ -1646,6 +1646,8 @@ display: flex;
 }
 
 
+
+
 /* --- mobile fix --- */
 @media (max-width: 768px) {
   .collBakground {
@@ -1687,13 +1689,16 @@ display: flex;
     font-size: clamp(16px, 3vw, 30px);
     margin: 0 0 20px 0;
 }.dropdown {
-  position: relative;
-  z-index: 1;
-  margin-top: 20px;
+  position: relative; 
+  display: inline-block;
+  margin: 20px;
+  margin-top:450px;
+  margin-left:350px;
 }
 
+
 .dropbtn {
-  background-color: #007bff;
+  background-color: #000;
   color: white;
   font-size: 1.1em;
   padding: 12px 25px;
@@ -1707,19 +1712,22 @@ display: flex;
   background-color: #0056b3;
 }
 
+
 .dropdown-content {
   display: none;
   position: absolute;
+  top: 100%; 
+  left: 0;   
   background-color: white;
   min-width: 220px;
   box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
   border-radius: 5px;
-  z-index: 2;
+  z-index: 10;
 }
+
 
 .dropdown-content a {
   color: #333;
-  padding: 10px 15px;
   text-decoration: none;
   display: block;
 }
@@ -1728,10 +1736,10 @@ display: flex;
   background-color: #f1f1f1;
 }
 
+/* Show dropdown on hover */
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
 .consider {
   width: 350px;
   text-align: center;
@@ -3634,4 +3642,3 @@ font-size: 16px;
 
 
    
-
