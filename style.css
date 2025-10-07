@@ -1688,37 +1688,40 @@ display: flex;
 
 .dropdown:hover .dropdown-content {
   display: block;
-}
-
-
-
-
-/* --- mobile fix --- */
-@media (max-width: 768px) {
+}@media (max-width: 768px) {
   .collBakground {
-    height: 100vh; /* make sure the section fills full screen on phone */
-  }
-
-  .collBakground video {
-    height: 100%; /* match PC behavior */
-    object-fit: cover;
+    height: 80vh; /* slightly smaller for mobile browsers */
   }
 
   .dropbtn {
     font-size: 1em;
     padding: 10px 20px;
   }
-}
 
-
-
-/* Responsive adjustments for smaller screens */
-@media only screen and (max-width: 768px) {
-  .collBakground {
-    height: 40vh; /* reduce height on mobile */
-    padding: 3vw;
+  .dropdown-content {
+    min-width: 180px;
+    font-size: 0.95em;
   }
 }
+
+/* Very small phones (portrait) */
+@media (max-width: 480px) {
+  .collBakground {
+    height: 70vh;
+  }
+
+  .dropbtn {
+    font-size: 0.9em;
+    padding: 8px 16px;
+  }
+
+  .dropdown-content {
+    min-width: 160px;
+  }
+}
+
+
+
 
 
 .collBakground h2 {
