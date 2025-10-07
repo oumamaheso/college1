@@ -1270,7 +1270,7 @@ button:hover {
   gap: 10px;                 
   flex-wrap: nowrap;   
   margin-left:80px; 
-  margin-top:-30px;      
+  margin-top:30px;      
 }
 
 .programC {
@@ -1634,14 +1634,15 @@ display: flex;
 
 .collBakground video{
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 60%;
+  left: 55%;
   transform: translate(-50%,-50%);
   width:1300px;
   height: 90%;
   max-width: 2000px;     /* <-- limit max expansion on large screens */
   max-height: 1200px;    /* <-- tune these values */
   object-fit: cover;
+
   
 }
 
@@ -1692,8 +1693,8 @@ display: flex;
   position: relative; 
   display: inline-block;
   margin: 20px;
-  margin-top:450px;
-  margin-left:350px;
+  margin-top:550px;
+  margin-left:150px;
 }
 
 
