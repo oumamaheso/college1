@@ -1634,7 +1634,7 @@ display: flex;
   justify-content: center; /* center vertically */
   align-items: center; /* center horizontally */
   text-align: center;
-  padding: 0;
+  padding: 10px 30px;
 }
 
 /* make the video fully cover the background */
@@ -1643,9 +1643,9 @@ display: flex;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%; /* fill container both on PC and mobile */
+  height: 80%; /* fill container both on PC and mobile */
   object-fit: cover; /* ensures proper scaling */
-  z-index: -1;
+ 
 }
 
 /* Dropdown styling */
@@ -3688,3 +3688,4 @@ font-size: 16px;
 
 
    
+
