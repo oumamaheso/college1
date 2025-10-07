@@ -1642,6 +1642,7 @@ display: flex;
   max-width: 2000px;     /* <-- limit max expansion on large screens */
   max-height: 1200px;    /* <-- tune these values */
   object-fit: cover;
+  margin-left:100px;
   
 }
 
@@ -3642,3 +3643,4 @@ font-size: 16px;
 
 
    
+
