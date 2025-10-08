@@ -1272,8 +1272,7 @@ button:hover {
   flex-wrap: nowrap;   
   margin-left:80px; 
   margin-top:-35px; 
-   margin-top: 0;
-  padding-top: 0;     
+       
 }
 
 .programC {
@@ -1665,8 +1664,19 @@ display: flex;
   top:-100px;
 }
 
- 
- @media (max-width: 768px) {
+@media screen and (max-width: 1024px) {
+  .collBackPic {
+    background-size: contain;
+    background-position: top center;
+    background-color: #fff;
+    height: auto;        /* let the height fit image size */
+    aspect-ratio: 16 / 9;
+    padding: 0;
+  }
+
+
+
+}@media (max-width: 768px) {
   .collBackPic {
     background-size: contain;   
     background-position: top;  
@@ -1683,7 +1693,7 @@ display: flex;
 }
 .dropdown {
   position: absolute;
-  top: 110%;
+  top: 21%;
   left: 8%;
   transform: translate(-50%, -50%);
   z-index: 2;
