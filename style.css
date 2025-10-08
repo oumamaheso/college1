@@ -1663,17 +1663,6 @@ display: flex;
   padding: 0;
 }
 
-/* For mobile and "desktop mode" on phones */
-@media screen and (max-width: 1024px) {
-  .collBackPic {
-    background-size: contain;
-    background-position: top center;
-    background-color: #fff;
-    height: auto;        /* let the height fit image size */
-    aspect-ratio: 16 / 9;
-    padding: 0;
-  }
-}
  @media (max-width: 768px) {
   .collBackPic {
     background-size: contain;   
@@ -3687,3 +3676,4 @@ font-size: 16px;
 
 
    
+
