@@ -1,4 +1,5 @@
 
+
 body {
     font-size: 16px;
     background-color:white;
@@ -1663,9 +1664,10 @@ display: flex;
 /* Prevent zooming/cropping on narrower screens (like mobile in desktop mode) */
 @media screen and (max-aspect-ratio: 16/9) {
   .collBackPic {
-    background-size: contain; /* keeps full image visible */
-    background-position: center top; /* adjust vertical alignment */
-    background-color: #ffffff; /* background fill if image doesn't cover full area */
+    background-size: contain;
+    background-position: top center;
+    min-height: auto;       /* remove forced height */
+    padding: 20px 0;        /* space inside the div */
   }
 
 
@@ -1686,7 +1688,7 @@ display: flex;
 }
 .dropdown {
   position: absolute;
-  top: 110%;
+  top: 23%;
   left: 8%;
   transform: translate(-50%, -50%);
   z-index: 2;
