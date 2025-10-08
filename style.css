@@ -1672,18 +1672,16 @@ display: flex;
     height: auto;        
     aspect-ratio: 16 / 9;
     padding: 0;
+  }.dropdown{
+    margin-top:50px;
+    
   }
-
-
 
 }@media (max-width: 768px) {
   .collBackPic {
     background-size: contain;   
     background-position: top;  
     height: 60vh;               
-  }.dropdown{
-    margin-top:50px;
-    
   }
 }
 
