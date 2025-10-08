@@ -1673,7 +1673,7 @@ display: flex;
     background-size: contain;
     background-position: top center;
     background-color: #fff;
-    height:50vh;        
+    height:30vh;        
     aspect-ratio: 16 / 9;
     padding: 0;
   }.dropdown{
@@ -3695,3 +3695,4 @@ font-size: 16px;
 
 
    
+
