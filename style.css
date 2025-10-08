@@ -1,5 +1,4 @@
 
-
 body {
     font-size: 16px;
     background-color:white;
@@ -1272,7 +1271,7 @@ button:hover {
   gap: 10px;                 
   flex-wrap: nowrap;   
   margin-left:80px; 
-  margin-top:100px;      
+  margin-top:-35px;      
 }
 
 .programC {
@@ -1653,12 +1652,15 @@ display: flex;
     
   }
 }.collBackPic {
+  position: relative;
   background-image: url("images/collegeBSISA8.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
   height: 60vh;
+  left:60px;
+  top:-100px;
 }
 
 /* Prevent zooming/cropping on narrower screens (like mobile in desktop mode) */
@@ -1688,7 +1690,7 @@ display: flex;
 }
 .dropdown {
   position: absolute;
-  top: 23%;
+  top: 110%;
   left: 8%;
   transform: translate(-50%, -50%);
   z-index: 2;
