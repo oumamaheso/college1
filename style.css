@@ -1670,7 +1670,7 @@ display: flex;
 
 @media screen and (max-width: 1024px) {
   .collBackPic1 {
-    height:auto;        
+    height:60vh;        
     aspect-ratio: 16 / 9;
     padding: 0;
   }.dropdown{
@@ -3692,5 +3692,6 @@ font-size: 16px;
 
 
    
+
 
 
