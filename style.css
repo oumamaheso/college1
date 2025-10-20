@@ -1,3 +1,4 @@
+
 body {
     font-size: 16px;
     background-color:white;
@@ -1413,6 +1414,7 @@ button:hover {
   border-radius: 0px;
   background-color: #f4f8fc;
   
+  
 
 }.about-course h2,
 .table-wrapper h2{
@@ -1507,6 +1509,7 @@ button:hover {
   border-radius: 8px;
   background: yellow;
   animation: fadeIn 0.3s ease-in-out;
+  margin-left:-45px;
 }
 
 @keyframes fadeIn {
@@ -1664,6 +1667,7 @@ display: flex;
     color: #0c3c80;
     text-align: center;
     text-decoration: underline;
+    font-size:30px;
 
 }
 .why-college {
@@ -3129,7 +3133,7 @@ left:0
     max-width: 50vw !important;
     margin: 0 auto !important;
     position: relative !important;
-    top: -70px !important;
+    top: -50px !important;
     left:-115px !important;
    
   }.contact-logo{
@@ -3285,12 +3289,6 @@ font-size: 16px;
 
 }.study-methods{
   margin-left:-30px;
-}.test{
-  margin-left: -50px;
- 
-}.video-container-Testimony{
-  margin-left:100px;
-  width:30px;
 }
 .get-inColl {
         flex-direction: column;
@@ -3309,8 +3307,52 @@ font-size: 16px;
 
     }.backgound-English h2{
       margin-left:-25px;
-    }
-    
+    }.about-course{
+      margin-left:20px;
+    }.course-content {
+  display: none;
+  margin-top: 10px;
+  padding: 20px 30px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: yellow;
+  animation: fadeIn 0.3s ease-in-out;
+  margin-left:-45px;
+}.Progs{
+    flex-wrap: wrap !important;
+    margin-left: 0 !important;
+    margin-top: 20px !important;
+    justify-content: center !important;
+    gap: 15px !important;   
+}.Progs h2{
+  margin-left:-15px;
+}.Progs p{
+  margin-left:-15px;
+}.why-items{
+    flex-wrap: wrap;
+    margin-top: 20px !important;
+    justify-content: center !important;
+    gap: 5px !important; 
+    margin-left:-50px;
+}.whySA p{
+  padding:10px 55px;
+  margin-right:-50px;
+}.collegeAccre{
+  margin-left:100px;
+}
+.test{
+  margin-left: 40px;
+ 
+}.video-container-Testimony{
+  margin-left:170px;
+  width:50px;
+} .cta-sectionColl{
+  margin-left: -10px;
+}.dropdown{
+  margin-top:-754px;
+}.collBackPic1{
+  margin-top:-150px;
+}   
 }
 @media (max-width: 480px) {
   body {
@@ -3411,12 +3453,12 @@ font-size: 16px;
 }
 
 .Homepage {
-    padding: 6px 3px;
+    padding: 55px 30px;
     font-size: 14px;
     text-decoration: none;
     display: inline-block;
     white-space: normal; 
-    max-width: 120px;        
+    max-width: 10px;        
    
 }
 .tabsF {
@@ -3526,7 +3568,7 @@ font-size: 16px;
     max-width: 50vw !important;
     margin: 0 auto !important;
     position: relative !important;
-    top: -70px !important;
+    top: -50px !important;
     left:-115px !important;
    
   }.contact-logo{
@@ -3557,8 +3599,6 @@ font-size: 16px;
   padding: 100px 15px;
   text-align: center;
  
-}.collegeAccre{
-  margin-left:10px;
 }
 .consider {
   width: 350px;
@@ -3684,13 +3724,7 @@ font-size: 16px;
 
 }.study-methods{
   margin-left:-30px;
-}.test{
-  margin-left: -50px;
- 
-}.video-container-Testimony{
-  margin-left:100px;
-  width:30px;
-} .get-inColl {
+}.get-inColl {
         flex-direction: column;
         gap: 5px;
         margin: 60px 0 30px 0;
@@ -3708,8 +3742,53 @@ font-size: 16px;
     }.backgound-English h2{
       margin-left:-25px;
     }.about-course{
-      margin-left:-20px;
-    }
+      margin-left:20px;
+    }.course-content {
+  display: none;
+  margin-top: 10px;
+  padding: 20px 30px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: yellow;
+  animation: fadeIn 0.3s ease-in-out;
+  margin-left:-45px;
+}.Progs{
+    flex-wrap: wrap !important;
+    margin-left: 0 !important;
+    margin-top: 20px !important;
+    justify-content: center !important;
+    gap: 15px !important;   
+}.Progs h2{
+  margin-left:-15px;
+}.Progs p{
+  margin-left:-15px;
+}.why-items{
+    flex-wrap: wrap;
+    margin-top: 20px !important;
+    justify-content: center !important;
+    gap: 5px !important; 
+    margin-left:-50px;
+}.whySA p{
+  padding:10px 55px;
+  margin-right:-50px;
+}.collegeAccre{
+  margin-left:100px;
+}
+.test{
+  margin-left: 40px;
+ 
+}.video-container-Testimony{
+  margin-left:170px;
+  width:50px;
+} .cta-sectionColl{
+  margin-left: -10px;
+}.dropdown{
+  margin-top:-754px;
+}.collBackPic1{
+  margin-top:-150px;
+}
+
+
 }
 
 
