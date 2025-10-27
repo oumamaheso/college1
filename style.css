@@ -1263,36 +1263,39 @@ button:hover {
   text-decoration: none;
 }.Buss-subjects{
   text-decoration: none;
-}.Progs{
+}.whySA .Progs{
   display: flex;              
   justify-content: center;    
   align-items: flex-start;    
-  gap: 10px;                 
+  gap: 60px;                 
   flex-wrap: nowrap;   
   margin-left:80px; 
   margin-top:35px; 
        
 }
 
-.programC {
+.whySA .programC {
   flex: 0 0 300px;           
   text-align: center;
 }
 
-.programC img {
+.whySA .programC img {
  height:200px;
  width:380px;
+ 
 }
 
-.programC h2 {
+.whySA .programC h2 {
   color: #0c3c80;
   margin: 10px 0;
   text-transform: uppercase;
 }
 
-.programC p {
+.whySA .programC p {
   font-size: 16px;
   margin: 10px 0 0;
+}.whySA .Progs a{
+  margin-left:-50px;
 }
 
 
@@ -1327,19 +1330,27 @@ button:hover {
   display: block;
   text-decoration: none;
   color: inherit;
-}.whySA{
-  margin-left:-70px;
+}.whySA h1{
+  color:#0c3c80;
+  text-align:left;
+ 
+}.whySA .Progs h2 {
+  text-decoration: none;
+  font-size:20px;
 }
 
   .whySA h2{
-  text-align: center;
+  text-align:left;
   color: #0c3c80;
   font-size:30px;
   text-decoration: underline;
   margin-top:30px;
-  margin-left:80px;
+  margin-left:-20px;
+  text-decoration-thickness: 3px; 
+  text-underline-offset: 7px; 
+ 
   }.whySA p{
-    text-align: center;
+    text-align:left;
    
   }
   .why-items {
@@ -1367,9 +1378,54 @@ button:hover {
   display: block;
   margin: 0 auto 10px; 
   margin-left:10px;
+}.why-items1 {
+  display: flex;
+ justify-content: flex-start;
 
+  align-items: flex-start;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 20px;
  
-}.backLang {
+}
+
+.item1 {
+  display: flex;
+  align-items:center;
+  gap: 50px; 
+  max-width: 250px;
+  margin-top:50px;
+  margin-left:-50px;
+  
+
+}.items-row {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 100px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  margin-left:-180px;
+}
+
+
+.item1 img {
+  width: 50px;
+  height: auto;
+
+}.AccP{
+  text-align: center;
+}
+
+.item1 p {
+  margin: 0;
+  font-size: 16px;
+  margin-left:-40px;
+  padding:0px 20px;
+ 
+}
+
+.backLang {
   height: 200px;
   background-size: cover;
   background-position: center;
@@ -1664,7 +1720,7 @@ display: flex;
    
 }.test{
     color: #0c3c80;
-    text-align: center;
+    text-align:left;
     text-decoration: underline;
     font-size:30px;
 
@@ -1944,7 +2000,6 @@ display: flex;
 .video-container-Testimony {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   gap: 30px;
 }
 
