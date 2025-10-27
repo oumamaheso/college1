@@ -1269,7 +1269,7 @@ button:hover {
   align-items: flex-start;    
   gap: 60px;                 
   flex-wrap: nowrap;   
-  margin-left:20px; 
+  margin-left:40px; 
   margin-top:35px; 
        
 }
@@ -3880,4 +3880,5 @@ font-size: 16px;
 
 
    
+
 
