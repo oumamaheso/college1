@@ -1,3 +1,4 @@
+
 body {
     font-size: 16px;
     background-color:white;
@@ -1763,8 +1764,6 @@ display: flex;
   position: relative;
   background-image: url("images/collBack7.jpg");
   background-size: cover;
-  display: flex;
-  justify-content: flex-start;
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
@@ -1773,6 +1772,8 @@ display: flex;
   top:-100px;
 }.collBackPic1 img{
   position: relative;
+  display: flex;
+  justify-content: flex-start;
   width:110%;
   height:70vh;
   margin-top:-100px;
