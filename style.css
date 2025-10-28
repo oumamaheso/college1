@@ -1,3 +1,4 @@
+
 body {
     font-size: 16px;
     background-color:white;
@@ -1345,7 +1346,7 @@ button:hover {
   text-align:left;
   color: #0c3c80;
   font-size:30px;
-  text-decoration: underline;
+  text-decoration: none;
   margin-top:30px;
   margin-left:-20px;
   text-decoration-thickness: 3px; 
@@ -1776,7 +1777,7 @@ display: flex;
   width:110%;
   height:70vh;
   margin-top:-100px;
-  margin-left:20px;
+ 
 }
 
 @media screen and (max-width: 1024px) {
@@ -3880,5 +3881,3 @@ font-size: 16px;
 
 
    
-
-
