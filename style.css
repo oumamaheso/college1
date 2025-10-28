@@ -1773,7 +1773,7 @@ display: flex;
 }.collBackPic1 img{
  position: relative;
   display: flex;
-  justify-content: right;
+  object-position: center;
   background-size: cover;
   width:110%;
   height:70vh;
@@ -3882,6 +3882,7 @@ font-size: 16px;
 
 
    
+
 
 
 
