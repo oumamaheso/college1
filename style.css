@@ -1774,6 +1774,7 @@ display: flex;
   position: relative;
   display: flex;
   justify-content: flex-start;
+  background-size: cover;
   width:110%;
   height:70vh;
   margin-top:-100px;
@@ -3881,3 +3882,4 @@ font-size: 16px;
 
 
    
+
