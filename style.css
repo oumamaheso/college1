@@ -1722,7 +1722,7 @@ display: flex;
 }.test{
     color: #0c3c80;
     text-align:left;
-    text-decoration: underline;
+    text-decoration:none;
     font-size:30px;
 
 }
@@ -1771,7 +1771,7 @@ display: flex;
   left:70px;
   top:-100px;
 }.collBackPic1 img{
- position: relative;
+  position: relative;
   display: flex;
   object-position: center;
   background-size: cover;
@@ -3393,6 +3393,13 @@ font-size: 16px;
     justify-content: center !important;
     gap: 5px !important; 
     margin-left:-50px;
+}.items-row{
+  padding:10px 25px;
+  margin-left:15px;
+  gap:1px
+}.AccP{
+  margin-left:-80px;
+  text-align:left;
 }.whySA p{
   padding:10px 55px;
   margin-right:-50px;
@@ -3403,7 +3410,7 @@ font-size: 16px;
   margin-left: 40px;
  
 }.video-container-Testimony{
-  margin-left:170px;
+  margin-left:50px;
   width:50px;
 } .cta-sectionColl{
   margin-left: -10px;
@@ -3639,7 +3646,7 @@ font-size: 16px;
     left: -130px !important;
 }
 .video-container{
-  margin-left:-30px;
+  margin-left:-50px;
 }.missions-P{
   margin-left:20px;
 }.internships{
@@ -3828,16 +3835,24 @@ font-size: 16px;
     gap: 5px !important; 
     margin-left:-50px;
 }.whySA p{
-  padding:10px 55px;
-  margin-right:-50px;
-}.collegeAccre{
+  padding:0px 2px;
+  margin-right:30px;
+}.items-row{
+  padding:10px 25px;
+  margin-left:15px;
+  gap:1px
+}.AccP{
+  margin-left:-80px;
+  text-align:left;
+}
+.collegeAccre{
   margin-left:100px;
 }
 .test{
   margin-left: 40px;
  
 }.video-container-Testimony{
-  margin-left:170px;
+  margin-left:50px;
   width:50px;
 } .cta-sectionColl{
   margin-left: -10px;
@@ -3882,9 +3897,3 @@ font-size: 16px;
 
 
    
-
-
-
-
-
-
