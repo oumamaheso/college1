@@ -1,4 +1,3 @@
-
 body {
     font-size: 16px;
     background-color:white;
@@ -233,21 +232,23 @@ margin-left:-100px;
   font-size:30px;
   color:#0c3c80;
   margin-left:600px;
-  margin-top:-100px;
+  margin-top:-170px;
   text-align: center;
-  text-decoration: underline;
 
 }.intern{
   width:600px;
-  margin-left:400px;
+  margin-left:50px;
+  margin-top:-100px;
 
 }.internships{
   margin-top:200px;
 }.internships p{
-  margin-left:20px;
-  margin-top:20px;
+  margin-left:600px;
+  margin-top:-260px;
   font-size:18px;
-  font-weight:bold;
+  padding: 10px 90px;
+ 
+ 
 
 }.paragraphsHome p{
   margin-top:-500px;
@@ -963,30 +964,40 @@ ul {
 }.Ourservices li {
     margin-bottom: 6px;
     display: list-item;
-}.service {
-  width: 320px;
-  padding: 0px;
-  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
-  border-radius: 0px;
-  background-color:white;
- 
+}.AboutAandT{
+  margin-top:-150px;
+}
+.AboutAandT h2{
   
-}.Ourservices {
+    color: #0c3c80;
+    text-align:center;
+    font-size:30px;
+   
+}.AboutAandT p{
+  font-size:18px;
+}
+.Ourservices {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 20px;
-  justify-content: center;
+  justify-content:left;
   padding: 20px;
 }.service h2{
   color:black;
   font-size:25px;
   text-align: center;
+}.Ourservices .service h2{
+  color: #000;
+  font-size:16px;
+}.Ourservices .service img{
+   width: 310px;
+    height: 190px;
 }
 .service li{
     color: black;
     font-size:20px;
 }.imgone{
-    margin-top: -6px;
+    margin-top: 12px;
 }.financialReports{
     margin-top:1px;
 }.imgfive{
@@ -995,19 +1006,44 @@ ul {
     margin-top:10px;
 }.accAndTraining {
 position: relative;
-height: 400px;
-width:500px;
+height: 300px;
+width:350px;
 display: block;
 margin-top:-80px;
 top:0;
-left:0
+left:50px;
 }.AccInfo{
     margin-top: -80px;
     font-size:20px;
     margin-left:100px;
    
     
-}.offeredServices {
+}.AccValues {
+  
+  display: flex;
+  gap: 15px;
+  margin-left:200px;
+
+}.value1 img {
+  width:  100px;
+  height: auto;
+ 
+
+}
+.value1 p {
+  margin: 0;
+  font-size: 18px;
+  margin-left:-40px;
+  padding:10px 40px;
+ 
+}.value2{
+ text-align:left;
+ font-weight: bold;
+}
+.accIntro{
+  margin-top:-140px;
+}
+.offeredServices {
 
     color: #0c3c80;
     text-align:center;
@@ -1016,8 +1052,8 @@ left:0
 
 }.tabs{
   position:relative;
-  top: -340px;
-  right:-960px;
+  top: -270px;
+  right:-700px;
   display: flex;
   gap: 1px;
   padding: 20px;
@@ -1117,7 +1153,7 @@ left:0
     text-align: center;
     padding: 20px;
     font-size:30px;
-    margin-top:-70px;
+    margin-top:-60px;
 }.accreditations p{
     font-size:18px;
 }
@@ -1204,7 +1240,7 @@ left:0
 
 
 .accred-desc {
-    margin-top: -25px;
+    margin-top: 85px;
     font-size: 18px;
     margin-left:100px;
 }.faq-heading {
@@ -1272,12 +1308,14 @@ button:hover {
   flex-wrap: nowrap;   
   margin-left:80px; 
   margin-top:35px; 
+  margin-top:-107px;
        
 }
 
 .whySA .programC {
   flex: 0 0 300px;           
   text-align: center;
+  
   
 }
 
@@ -1343,12 +1381,11 @@ button:hover {
 }
 
   .whySA h2{
-  text-align:left;
+  text-align:center;
   color: #0c3c80;
   font-size:30px;
   text-decoration: none;
   margin-top:30px;
-  margin-left:-20px;
   text-decoration-thickness: 3px; 
   text-underline-offset: 7px; 
  
@@ -1372,6 +1409,7 @@ button:hover {
   margin-left:10px;
 }.moreLink{
   color:#2a7ae2;
+  
   
 }
 
@@ -1721,7 +1759,9 @@ display: flex;
    
 }.test{
     color: #0c3c80;
-    text-align:left;
+    text-align:center;
+    margin-left: -350px;
+    margin-top:50px;
     text-decoration:none;
     font-size:30px;
 
@@ -1933,8 +1973,8 @@ display: flex;
 
 .stud-testimonials {
   padding: 60px 20px;
-  text-align: center;
-  margin-left:-40px;
+
+  margin-left:340px;
   margin-top:-130px;
   
 }.study-methods {
@@ -2249,7 +2289,18 @@ left:0
   border-radius: 10px;
   max-width: 400px;
   text-align: center;
-}
+}.Regbtn {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #0055aa;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+  }
+  .Regbtn:hover {
+    background-color: #003d7a;
+  }
 
 .close {
   float: right;
@@ -3022,14 +3073,13 @@ left:0
   }
 
   .tabsC {
-    display: flex;        
-    gap: 10px;              
-    padding: 10 12px;
-    position: relative;      
-    top: -200px;                 
-    right: 60px;                
-    flex-wrap: wrap;  
-   
+    display: flex;          
+    gap: 35px;
+    position: relative;
+    top: -200px;
+    right: -55px;
+    flex-wrap: wrap;
+  
     
   } .tabsColl {
     display: flex;          
@@ -3066,25 +3116,25 @@ left:0
   }.tabs a {
     width: 45px;         
 }
-     .Home-tabs {
-    display: flex;           
-    gap: 40px;
+    .Home-tabs {
+     display: flex;          
+    gap: 35px;
     position: relative;
-    top: -90px;
-    right: -100px;
-    flex-wrap: nowrap;     
+    top: -140px;
+    right: -50px;
+    flex-wrap: wrap;    
 }.Home-tabs a{
   width:35px;
 }
 
 .Homepage {
-     padding: 55px 40px;
-    font-size: 14px;
+    padding: 55px 10px;
+    font-size: 10px;
     text-decoration: none;
     display: inline-block;
-    white-space: normal;    
-    max-width: 120px;        
-    
+    white-space: normal; 
+    max-width: 10px;        
+   
 }
 .tabsF {
     position:absolute;      
@@ -3178,7 +3228,7 @@ left:0
     margin: 0 auto !important;
     position: relative !important;
     top: -20px !important;
-    left: -110px !important;
+    left: -80px !important;
 }.Logo3{
    height: auto !important;
     max-width: 30vw !important;
@@ -3193,7 +3243,7 @@ left:0
     margin: 0 auto !important;
     position: relative !important;
     top: -50px !important;
-    left:-115px !important;
+    left:-100px !important;
    
   }.contact-logo{
     height: auto !important;
@@ -3380,7 +3430,7 @@ font-size: 16px;
 }.Progs{
     flex-wrap: wrap !important;
     margin-left: 0 !important;
-    margin-top: 20px !important;
+    margin-top: -200px !important;
     justify-content: center !important;
     gap: 15px !important;   
 }.Progs h2{
@@ -3407,10 +3457,10 @@ font-size: 16px;
   margin-left:100px;
 }
 .test{
-  margin-left: 40px;
+margin-left:-390px;
  
 }.video-container-Testimony{
-  margin-left:50px;
+  margin-left:-290px;
   width:50px;
 } .cta-sectionColl{
   margin-left: -10px;
@@ -3436,7 +3486,7 @@ font-size: 16px;
     justify-content: center !important;
     gap: 15px !important;
   }
-
+ 
   .image-container {
     flex: 1 1 100% !important;
     max-width: 300px !important;
@@ -3459,10 +3509,10 @@ font-size: 16px;
     min-height: 220px;
   }.tabsC {
     display: flex;          
-    gap: 25px;
+    gap: 35px;
     position: relative;
-    top: -210px;
-    right: -85px;
+    top: -200px;
+    right: -55px;
     flex-wrap: wrap;
    
    
@@ -3497,10 +3547,10 @@ font-size: 16px;
 
    }.tabs{
     display: flex;          
-    gap: 1px;
+    gap: 50px;
     position: relative;
-    top: -180px;
-    right: -85px;
+    top: -200px;
+    right: -105px;
     flex-wrap: wrap; 
    
       
@@ -3508,19 +3558,19 @@ font-size: 16px;
     width: 45px;          
 }
     .Home-tabs {
-    display: flex;           
-    gap: 40px;
+     display: flex;          
+    gap: 35px;
     position: relative;
-    top: -90px;
-    right: -100px;
-    flex-wrap: nowrap;      
+    top: -140px;
+    right: -50px;
+    flex-wrap: wrap;    
 }.Home-tabs a{
   width:35px;
 }
 
 .Homepage {
-    padding: 55px 40px;
-    font-size: 14px;
+    padding: 55px 10px;
+    font-size: 10px;
     text-decoration: none;
     display: inline-block;
     white-space: normal; 
@@ -3619,7 +3669,7 @@ font-size: 16px;
     margin: 0 auto !important;
     position: relative !important;
     top: -20px !important;
-    left: -110px !important;
+    left: -80px !important;
 }.Logo3{
    height: auto !important;
     max-width: 30vw !important;
@@ -3635,7 +3685,7 @@ font-size: 16px;
     margin: 0 auto !important;
     position: relative !important;
     top: -50px !important;
-    left:-115px !important;
+    left:-100px !important;
    
   }.contact-logo{
     height: auto !important;
@@ -3646,7 +3696,7 @@ font-size: 16px;
     left: -130px !important;
 }
 .video-container{
-  margin-left:-50px;
+  margin-left:50px;
 }.missions-P{
   margin-left:20px;
 }.internships{
@@ -3739,9 +3789,10 @@ font-size: 16px;
     max-width: 35vw !important;
     margin: 0 auto !important;
     position: relative !important;
-    top: -70px !important;
+    top: -60px !important;
     left: -115px !important;
-  }.team{
+  }
+  .team{
     margin-left:-10px;
   }.teams{
     margin-left:10px;
@@ -3821,7 +3872,7 @@ font-size: 16px;
 }.Progs{
     flex-wrap: wrap !important;
     margin-left: 0 !important;
-    margin-top: 20px !important;
+    margin-top: -200px !important;
     justify-content: center !important;
     gap: 15px !important;   
 }.Progs h2{
@@ -3849,10 +3900,10 @@ font-size: 16px;
   margin-left:100px;
 }
 .test{
-  margin-left: 40px;
+  margin-left:-390px;
  
 }.video-container-Testimony{
-  margin-left:50px;
+  margin-left:-290px;
   width:50px;
 } .cta-sectionColl{
   margin-left: -10px;
@@ -3860,10 +3911,79 @@ font-size: 16px;
   margin-top:-754px;
 }.collBackPic1{
   margin-top:-150px;
+}.accTraining{
+  padding:10px 10px;
+ 
+}.Consultations{
+  margin-left:-380px;
+}.internships p{
+ 
+  text-align:left;
+  padding:0px 400px;
+  margin-left:-480px;
+  margin-top:50px;
+ 
+}.internships h2{
+  margin-top:-150px;
 }
+.accTraining{
+  text-align:left;
+  padding:0px 380px;
+  margin-left:-340px;
+  margin-top:10px;
+}.accreditations h2{
+  margin-top:30px;
+  margin-left:-380px;
+}.collapsible-list li {
+   
+    padding: 5px 350px;  
+    margin-left: -390px;
 
 
+} .cta-buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: stretch; 
+    }
+
+    .cta-btn {
+        width: 100%; 
+        text-align: left; 
+        padding: 12px 15px;
+        margin-left:-15px;
+       
+    }
+
+    .cta-box {
+        max-width: 10px;
+        width: 10%;
+        padding: 15px;
+    }
+
+    .cta-box h2 {
+        
+        text-align: left; 
+        margin-bottom: 15px;
+    }.cta-sectionAcc {
+   background-color: #0c3c80;
+  text-align: center;
+  border-radius: 15px;
+  color: #fff;
+  margin: 100px auto;
+  max-width: 500px; 
+  width: 30%;        
+  font-family: Arial, sans-serif;
+  margin-top:-10px;
+  margin-left:40px;
+}.AccValues{
+  flex-direction: column;
+  margin-left:20px;
+ 
 }
+
+}
+
 
 
 
